@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Pet Cats</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <style>
+    body {
+      background-color: rgb(134, 199, 230);
+    }
+
+    .animal-row {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      font-style: italic;
+    }
+
+    .animal {
+      flex: 1 1 200px;
+      margin: 10px;
+    }
+
+    .animal h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .animal p {
+      font-size: 1.1rem;
+    }
+
+    .note, blockquote {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    blockquote {
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-left: 5px solid #ccc;
+    }
+    @keyframes Cats {
+            0%   { background-color: rgb(26, 102, 163); }
+            25%  { background-color: rgb(255, 115, 0); }
+            50%  { background-color: lightblue; }
+            100% { background-color: rgb(247, 212, 148); } 
+        }
+
+        body { 
+            height: 100vh; 
+            margin: 0;
+            animation-name: Cats; 
+            animation-duration: 10s;
+            animation-iteration-count: infinite; 
+        }
+    
+  </style>
+</head>
+
+<body>
+    <blockquote class="blockquote">
+      <h1>Cats</h1>
+      <p>Cats are wonderful companions, known for their playful and independent nature. They can be affectionate and are often seen lounging in the sun or playing with toys.</p>
+    </blockquote>
+    <div class="container">
+
+    <div class="animal-row">
+      <div class="animal">
+        <h1 class="display-4">Thanos</h1>
+        <p>He is my eldest cat, with white/brownish fur and is very very fat.</p>
+      </div>
+      <img src="Thanos.jpg" alt="Thanos" style="max-width: 30%; height: auto;">
+
+      <div class="animal">
+        <h1 class="display-4">Simba</h1>
+        <p>He is my second eldest, with ginger fur, and is the quietest.</p>
+      </div>
+        <img src="simba.jph.jpg" alt="Simba" style="max-width: 30%; height: auto;">
+
+      <div class="animal">
+        <h1 class="display-4">Coco</h1>
+        <p>He is my youngest, with all white fur, and is the loudest and smallest</p>
+        <img src="coco.jpg" alt="Coco" style="max-width: 30%; height: auto;">
+      </div>
+      </div>
+    </div>
+    <div class="note">
+      <mark>Remember, only get pets when you're responsible enough.</mark>
+    </div>
+<div class="note">
+  <p>Bonus appreciation for my Cats :>></p>
+  <video controls width="600">
+    <source src="WhatsApp Video 2025-08-04 at 7.16.08 PM.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+ <div class="note">
+  <mark>Remember, only get pets when you're responsible enough.</mark>
+</div>
+<video controls width="600">
+  <source src="c:\Users\hanna\OneDrive\Desktop\After class projects\cats-video.mp4.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+  </div>
+</body>
+
+</html>
